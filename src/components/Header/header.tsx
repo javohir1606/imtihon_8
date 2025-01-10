@@ -2,14 +2,14 @@ import Link from "next/link";
 import React from "react";
 
 
-import {
-  Sheet,
-  SheetContent,
-  SheetDescription,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from "@/components/ui/sheet";
+// import {
+//   Sheet,
+//   SheetContent,
+//   SheetDescription,
+//   SheetHeader,
+//   SheetTitle,
+//   SheetTrigger,
+// } from "@/components/ui/sheet";
 
 import { MenuIcon } from "lucide-react";
 import { SecureIcon } from "@/assets/secureIcon";
@@ -96,7 +96,7 @@ export const Header = () => {
                 </span>
               </div>
               <div className="lg:hidden sm:hidden">
-                <Sheet>
+                {/* <Sheet>
                   <SheetTrigger className="w-[42px] h-[42px] flex justify-center items-center">
                     <MenuIcon />
                   </SheetTrigger>
@@ -106,7 +106,7 @@ export const Header = () => {
                       <SheetDescription>hello</SheetDescription>
                     </SheetHeader>
                   </SheetContent>
-                </Sheet>
+                </Sheet> */}
               </div>
               <div className=" w-[93px] h-[22px] lg:hidden flex-nowrap ">
                 <img
