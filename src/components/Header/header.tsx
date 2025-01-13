@@ -1,7 +1,6 @@
 import Link from "next/link";
 import React from "react";
 
-
 // import {
 //   Sheet,
 //   SheetContent,
@@ -11,7 +10,7 @@ import React from "react";
 //   SheetTrigger,
 // } from "@/components/ui/sheet";
 
-import { MenuIcon } from "lucide-react";
+import { MenuIcon, Sheet } from "lucide-react";
 import { SecureIcon } from "@/assets/secureIcon";
 import {
   Popover,
@@ -20,6 +19,13 @@ import {
 } from "@radix-ui/react-popover";
 import { IconImg } from "@/assets/Icon";
 import { ProfileIcon } from "@/assets/ProfileIcon";
+import {
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 
 export const Header = () => {
   const pages = [
@@ -96,17 +102,19 @@ export const Header = () => {
                 </span>
               </div>
               <div className="lg:hidden sm:hidden">
-                {/* <Sheet>
-                  <SheetTrigger className="w-[42px] h-[42px] flex justify-center items-center">
-                    <MenuIcon />
-                  </SheetTrigger>
-                  <SheetContent side={"left"} className="w-[100%]">
-                    <SheetHeader>
-                      <SheetTitle>Are you absolutely sure?</SheetTitle>
-                      <SheetDescription>hello</SheetDescription>
-                    </SheetHeader>
-                  </SheetContent>
-                </Sheet> */}
+                <div className="lg:hidden sm:hidden">
+                  {/* <Sheet>
+                    <SheetTrigger className="w-[42px] h-[42px] flex justify-center items-center">
+                      <MenuIcon />
+                    </SheetTrigger>
+                    <SheetContent side="left" className="w-[100%]">
+                      <SheetHeader>
+                        <SheetTitle>Are you absolutely sure?</SheetTitle>
+                        <SheetDescription>hello</SheetDescription>
+                      </SheetHeader>
+                    </SheetContent>
+                  </Sheet> */}
+                </div>
               </div>
               <div className=" w-[93px] h-[22px] lg:hidden flex-nowrap ">
                 <img
