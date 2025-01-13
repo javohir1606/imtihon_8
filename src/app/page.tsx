@@ -3,7 +3,6 @@ import { CarouselContent, CarouselItem } from "@/components/ui/carousel";
 import { Banner } from "@/components/Banner/banner";
 import fetchWrapper from "@/config/fetch";
 import { CarouselWrapper } from "@/components/Caroulsel/Caroulsel";
-// import { CarouselWrapper } from "@/components/Carousel/carousel-wrapper";
 
 export interface ResponseTodoT {
   title?: string;
